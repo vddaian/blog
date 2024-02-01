@@ -1,0 +1,52 @@
+.formBlock{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 50%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius:10px;
+}
+.formBlock form{
+    display: flex;
+    flex-direction: column;
+}
+.formBlock label{
+    margin:10px 0 10px 0 ;
+    text-decoration: underline;
+}
+.formBlock input{
+    font-family: var(--font);
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.formBlock textarea{
+    height: 300px;
+    margin-bottom: 10px;
+    font-family: var(--font);
+    border-radius: 5px;
+    border: 1px solid black;
+    resize: none;
+}
+.formBlock button{
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    font-family: 'Garet-Book';
+    border: 2px solid var(--bg-color);
+    border-radius: 4px ;
+}
+.formBlock button:hover{
+    background-color: var(--bg-color);
+    color: white;
+}
+.authForm{
+    margin: auto;
+    width: 35vw;
+}
+.authForm input{
+    margin-bottom: 15px;
+    width: 15vw;
+    padding: 5px;
+}

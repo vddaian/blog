@@ -1,0 +1,61 @@
+.postsBlock, .postBlock{
+    margin-top: 20px;
+    padding: 15px;
+    border-radius:10px;
+    background-color: white;
+}
+.postsBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: fit-content;
+    width: 60%;
+}
+.postsBlock hr{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+}
+.postsBlock hr:nth-child(odd){
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+}
+.postBlock{
+    width:80%;
+}
+.postBlock p, .postInfoBlock p{
+    overflow-wrap: break-word;
+}
+.postBlockForm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+}
+.postBlockForm button{
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    font-family: var(--font);
+    border: 2px solid var(--bg-color);
+    border-radius: 4px ;
+
+}
+.postBlockForm button:hover{
+    background-color: var(--bg-color);
+    color: white;
+}
+.postBlockForm *{
+    margin: 0;
+}
+.postInfoBlock{
+    height: 70vh;
+    margin: 30px;
+}
+.postInfoBlock p{
+    height: 60vh;
+    overflow-y: scroll;
+}
+
