@@ -5,7 +5,7 @@
 @endpush
 @section('content')
     <div class="adminBlock">
-        <ul>
+        <ul class="userList">
             @foreach ($data->original['data'] as $item)
                 @if ($item['name'] != session('username'))
                     <li>

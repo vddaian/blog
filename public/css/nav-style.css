@@ -10,11 +10,16 @@
 
 .navElementsList {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding: 0;
     margin: 0;
     list-style: none;
+}
+
+.navElementsList:nth-child(1) {
+    height: 2vh;
+    margin-left: 10%;
 }
 
 .navElementsList:nth-child(2) {
@@ -23,7 +28,7 @@
     margin: 0 15% 0 15%;
 }
 .navElementsList:nth-child(3) {
-    width: 30%;
+    width: 50%;
     height: 2vh;
 }
 .languageList, .auxlanguageList{
@@ -32,10 +37,11 @@
 .languageList{
     margin-right: 40px;
 }
-.languageListElem{}
 .auxlanguageList{
     position: absolute;
+    padding: 20px;
+    top: 30px;
+    right: 11vw;
+    border-radius: 5px;
     background-color: var(--bg-color);
-    top: 40px;
-    right: 9vw;
 }

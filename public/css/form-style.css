@@ -50,3 +50,7 @@
     width: 15vw;
     padding: 5px;
 }
+.authForm button{
+    float: right;
+    margin-bottom: 10px;
+}

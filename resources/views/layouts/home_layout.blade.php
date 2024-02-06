@@ -30,7 +30,7 @@
         </ul>
         <ul class="navElementsList">
             <ul class="languageList">
-                <li class="languageListElem">{{__('Languages')}}
+                <li class="languageListElem">
                     <ul class="auxlanguageList">
                         <li><a href="{{route('locale', 'es')}}">{{__('Spanish')}}</a></li>
                         <li><a href="{{route('locale', 'en')}}">{{__('English')}}</a></li>
